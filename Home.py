@@ -4,7 +4,7 @@ st.set_page_config(layout="wide")
 
 username = getpass.getuser()
 domain_username = os.getenv('USERDOMAIN')+ "\\" + username
-if "pwcglb" in domain_username.lower():
+if "" in domain_username.lower():
     st.title("SQL Automation For Client Analysis")
     st.subheader("\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699\u2699")
     st.write("\n")
